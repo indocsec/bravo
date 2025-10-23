@@ -1,7 +1,7 @@
 <?php
 
 $uri = isset($_SERVER['REQUEST_URI']) ? strtolower($_SERVER['REQUEST_URI']) : '';
-if ($uri !== '/' && $uri !== '/') {
+if ($uri !== '/project/' && $uri !== '/project/') {
   http_response_code(404);
   exit;
 }
